@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="/Images/favicon/logotip.ico" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Михаил Иванов</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="rec"></div>
+        <div class="admin-space">
+            <div class="admin-login">
+                <div>Log in as administrator</div>
+                <form>
+                    <h2>Пароль <p id="CheckPasswordMatch"></p>
+                    </h2>
+                    <input type="password" placeholder="Введите пароль">
+                    <input type="button" value="Войти">
+                </form>
+            </div>
+            <div class="admin">
+                <div class="header">
+                    <div>Admin panel</div>
+                    <input id="count" value=""></input>
+                </div>
+                <ul>
+                    <li><input type="checkbox">Card is glass?</li>
+                    <li><input type="checkbox">Alt promote</li>
+                    <li><input type="checkbox">Old item_cards</li>
+                    <li><input type="checkbox">Glass Theme</li>
+                    <li><input type="checkbox">Alt BG</li>
+                    <li>
+                        <form>
+                            <h2>Имя</h2>
+                            <input type="text" placeholder="Михаил Иванов">
+                            <h2>Описание</h2>
+                            <input type="text" placeholder="UI/UX-Дизайнер, разработчик" style="text-transform: none;">
+                            <input type="button" value="Изменить">
+                        </form>
+                    </li>
+                    <li>
+                        <form id="ic">
+                            <h2>Картинка соц.сети</h2>
+                            <input type="file" accept=".jpg, .jpeg, .png">
+                            <h2>Имя соц.сети</h2>
+                            <input type="text" placeholder="Вконтакте">
+                            <h2>Ссылка на соц.сеть</h2>
+                            <input type="text" placeholder="https://vk.com/" style="text-transform: none;">
+                            <input type="button" value="Добавить">
+                        </form>
+                    </li>
+                    <li>
+                        <form id="ic2">
+                            <h2>Иконка</h2>
+                            <input type="file" accept=".jpg, .jpeg, .png">
+                            <h2>Фон</h2>
+                            <input type="file" accept=".jpg, .jpeg, .png">
+                            <h2>Название</h2>
+                            <input type="text" placeholder="LANGAME Design">
+                            <h2>Ссылка</h2>
+                            <input type="text" placeholder="https://langame.ru/" style="text-transform: none;">
+                            <input type="button" value="Добавить">
+                        </form>
+                    </li>
+
+                    <!--  
+                    <li>
+                        <form>
+                            <h2>Имя</h2>
+                            <input type="text" placeholder="Михаил Иванов">
+                            <input type="button" value="Изменить">
+                        </form>
+                    </li> -->
+                </ul>
+                <!-- 
+                <ul class="stats">
+                    <h2>Статистика сайта</h2>
+                    <li>Количество заходов <input class="count" value="1"></input></li>
+                    <li>Нажатия "Напишите мне" <input class="count" value="1"></input></li>
+                </ul> -->
+                <div class="hide">Свернуть</div>
+                <div class="show">Развернуть</div>
+            </div>
+        </div>
+
+        <div class="bg-container"></div>
+        <div class="bs-card solid">
+            <div class="logo"><img src="" alt=""></div>
+            <div class="title">
+                <div class="name">Михаил Иванов</div>
+                <div class="caption">UI/UX-Дизайнер,<br>разработчик</div>
+            </div>
+            <div class="row">
+                <a href="https://www.behance.net/mir_dsgn" class="icon_card one">
+                    <img src="" alt="">
+                    <span class="name">Behance</span>
+                </a>
+                <a href="https://t.me/miivanov_r" class="icon_card two">
+                    <img src="" alt="">
+                    <span class="name">Telegram</span>
+                </a>
+                <a href="https://github.com/mir-develop" class="icon_card three">
+                    <img src="" alt="">
+                    <span class="name">GitHub</span>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://langame.ru">
+                    <div class="item_card bg one">
+                        <img src="" alt="">
+                        <span class="name">LANGAME Design</span>
+                    </div>
+                </a>
+                <a href="https://my-study-projects.netlify.app/">
+                    <div class="item_card bg two">
+                        <img src="" alt="">
+                        <span class="name">My Study Projects</span>
+                    </div>
+                </a>
+
+            </div>
+            <div class="promote smpl">Хотите также?<a href="https://t.me/miivanov_r">Напишите мне</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

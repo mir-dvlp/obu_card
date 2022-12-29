@@ -1,0 +1,118 @@
+@media (max-width: 414px) {
+    .bs-card {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    .title {
+        width: 100%;
+    }
+    .title .name {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .title .caption {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .icon_card {
+        width: 100%;
+    }
+
+    .icon_card .name {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+    .bs-card {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: fit-content;
+    }
+
+    .title {
+        width: 288px;
+    }
+
+    .title .name {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .title .caption {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .row {
+        width: 288px;
+    }
+
+    .icon_card {
+        width: 96px;
+    }
+
+    .icon_card .name {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bs-card {
+        padding-left: 64px;
+        padding-right: 64px;
+        width: fit-content;
+    }
+
+    .title {
+        width: 288px;
+    }
+
+    .title .name {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .title .caption {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .row {
+        width: 288px;
+    }
+
+    .icon_card {
+        width: 96px;
+    }
+
+    .icon_card .name {
+        font-size: 13px;
+    }
+}
+
+@media (hover: hover) {
+    .icon_card:hover {
+        background-color: #64646410;
+    }
+
+    .item_card:hover {
+        background-color: #64646410;
+    }
+
+    .item_card.bg:hover {
+        transform: scale(0.96);
+    }
+
+    .promote.smpl a:hover {
+        color: #ffffffbe;
+        background-color: transparent;
+    }
+}
